@@ -1,0 +1,53 @@
+.item-icon {
+  stroke: green;
+  width: 25px;
+  height: 25px;
+}
+.accordion {
+  width: 680px;
+  margin: 50px auto;
+}
+
+.hidden-item p {
+  font-size: 18px;
+}
+.myname {
+  background-color: yellow;
+}
+.item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 50px;
+  align-items: center;
+  box-shadow: 0 0 32px rgb(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+}
+.hidden-item {
+  /* grid-column: 2; */
+  grid-column: 2/3;
+}
+.item {
+}
+.number {
+  font-size: 24px;
+  color: green;
+  font-weight: 500;
+}
+.text {
+  font-size: 24px;
+  color: green;
+  font-weight: 500;
+}
+.hidden-item p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #343a40;
+}
+.hidden-item ul {
+  color: #868e96;
+  line-height: 1.5;
+}
+.hidden {
+  display: none;
+}
